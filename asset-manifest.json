@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/studypage-group-react/static/css/main.f855e6bc.css",
+    "main.js": "/studypage-group-react/static/js/main.8c37a9a5.js",
+    "static/js/453.d4136456.chunk.js": "/studypage-group-react/static/js/453.d4136456.chunk.js",
+    "static/media/logo.svg": "/studypage-group-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/studypage-group-react/index.html",
+    "main.f855e6bc.css.map": "/studypage-group-react/static/css/main.f855e6bc.css.map",
+    "main.8c37a9a5.js.map": "/studypage-group-react/static/js/main.8c37a9a5.js.map",
+    "453.d4136456.chunk.js.map": "/studypage-group-react/static/js/453.d4136456.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8c37a9a5.js"
+  ]
+}
