@@ -1,10 +1,29 @@
 {
   "files": {
-    "main.js": "/studypage-group-react/static/js/main.423104f4.js",
+    "main.css": "/studypage-group-react/static/css/main.a4755107.css",
+    "main.js": "/studypage-group-react/static/js/main.5b915442.js",
+    "static/media/background-video-1.mp4": "/studypage-group-react/static/media/background-video-1.1463198611a7bee9b870.mp4",
+    "static/media/cover3.png": "/studypage-group-react/static/media/cover3.047bfc4bb73513e566a3.png",
+    "static/media/cover2.png": "/studypage-group-react/static/media/cover2.40677111f167dc5c520b.png",
+    "static/media/cover1.png": "/studypage-group-react/static/media/cover1.16c4db07583c7bf29fc0.png",
+    "static/media/yacht_charter_services.png": "/studypage-group-react/static/media/yacht_charter_services.9342ab14091fe95a941f.png",
+    "static/media/cover4.png": "/studypage-group-react/static/media/cover4.611b50668d77aa437799.png",
+    "static/media/cover5.png": "/studypage-group-react/static/media/cover5.cdc0ead98ad59bd40f0d.png",
+    "static/media/yacht_charter_services_dark.png": "/studypage-group-react/static/media/yacht_charter_services_dark.55da6a3de667f4d17683.png",
+    "static/media/cover6.png": "/studypage-group-react/static/media/cover6.102fe208a89724b1ce80.png",
+    "static/media/yacht_charter_boat.png": "/studypage-group-react/static/media/yacht_charter_boat.a11ad62679a3c6bd6cb2.png",
+    "static/media/yacht_charter_boat_dark.png": "/studypage-group-react/static/media/yacht_charter_boat_dark.7e4c7cb34c69aa818edb.png",
+    "static/media/cover7.png": "/studypage-group-react/static/media/cover7.64e0de7ad0b81f5c8149.png",
+    "static/media/erb_logo.png": "/studypage-group-react/static/media/erb_logo.f5b9aa9bd000972773f6.png",
+    "static/media/logo_brandhk_en.png": "/studypage-group-react/static/media/logo_brandhk_en.f0f06504ea1769fda521.png",
+    "static/media/about.png": "/studypage-group-react/static/media/about.557cc328a2d912367040.png",
+    "static/media/wa_gold_logo.jpg": "/studypage-group-react/static/media/wa_gold_logo.a4bad17c721f0ed3bd3a.jpg",
     "index.html": "/studypage-group-react/index.html",
-    "main.423104f4.js.map": "/studypage-group-react/static/js/main.423104f4.js.map"
+    "main.a4755107.css.map": "/studypage-group-react/static/css/main.a4755107.css.map",
+    "main.5b915442.js.map": "/studypage-group-react/static/js/main.5b915442.js.map"
   },
   "entrypoints": [
-    "static/js/main.423104f4.js"
+    "static/css/main.a4755107.css",
+    "static/js/main.5b915442.js"
   ]
 }
