@@ -27,7 +27,7 @@ function Nav() {
         <nav className="navbar">
             <div className="nav-logo">
                 {/* <a href="index.html"><img src={erbLogo} className="logo-link" alt="logo" /></a> */}
-                <nav><Link to="/"><img src={erbLogo} className="logo-link" alt="logo" /></Link></nav>
+                <Link to="/"><img src={erbLogo} className="logo-link" alt="logo" /></Link>
             </div>
             <div className="nav-links">
                 <ul className="nav-list" id="nav-list">
