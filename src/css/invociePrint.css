@@ -1,0 +1,162 @@
+:root {
+  --clr-primary-1: #ecf5fc;
+  --clr-primary-2: #b1cce4;
+  --clr-primary-3: #77a2cc;
+  --clr-primary-4: #3c79b4;
+  --clr-primary-5: #014f9c;
+      /* for paragraph */
+      --clr-gray-1: #f6f6f6;
+      --clr-gray-2: #efefef;
+      --clr-gray-3: #dbdbdb;
+      --clr-gray-4: #c6c6c6;
+      --clr-gray-5: #aeaeae;
+      --clr-gray-6: #898989;
+      --clr-gray-7: #707070;
+      --clr-gray-8: #575757;
+      --clr-gray-9: #464646;
+      --clr-gray-10: #3e3e3e;
+      --clr-white : #fff;
+      --ff-primary : "Poppins", sans-serif;
+      --transition : all 0.3s linear;
+      --spacing : 0.25rem;
+      --radius : 0.5rem;
+      --light-shadow : 0 5px 15px rgba(0,0,0,0.1);
+      --dark-shadow : 0 5px 15px rgba(0,0,0,0.2);
+      --navbar-Height: 4rem;
+}
+@media print {
+  html,
+  body {
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .invoice {
+      max-width: 1100px;
+      background-color: var(--clr-white);
+      margin: 0 auto;
+      padding: 70px 50px;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+  }
+
+  .invoice-flex {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .invoice-header .invoice-header-left img {
+      width: 200px;
+  }
+
+  .invoice-header-left h1 {
+      font-weight: bold;
+      font-size: 32px;
+  }
+
+  .invoice-header-left p {
+      font-size: 16px;
+  }
+
+  .invoice-number img {
+    width: 80px;
+  }
+
+  .invoice-number h2 {
+    font-size: 24px;  
+  }
+
+  .invoice-number {
+    font-size: 16px;
+  }
+
+  .item-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;           
+  }
+
+  hr {
+    border-top: solid 1px #000 !important;
+  }
+  .hr-1 {
+    height: 2px;
+    border: 0;
+    margin-top: 20px; 
+  }
+  
+  .hr-2 {
+    height: 2px;
+    border: 0;
+    margin-bottom: 20px; 
+  }
+
+  .cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+    
+  .cart-item h3 {
+    width: 35%;  
+  }
+  
+  .cart-item .qty {
+    width: 40%;
+    padding-left: 80px;
+  }
+  
+  .cart-item .amount {
+    width: 25%;
+    text-align: right;
+  }
+    
+  /* .qty{
+      margin-right: 100px
+  } */
+  
+  .cart-noOfItems {
+    display: flex;
+  }
+
+  .cart-noOfItems h3 {
+    width: 320px;
+    text-align: left;
+  }
+  
+  .cart-noOfItems p {
+    width: 850px;
+    text-align: right;
+  }
+
+  .cart-footer {
+    display: flex;
+  }
+  
+  .cart-footer h2 {
+    width: 320px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .cart-footer p {
+    width: 850px;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .invoice-footer {
+    text-align: center;
+  }
+
+  .thanks {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .invoice-footer a {
+    display: none;
+  }
+
+}

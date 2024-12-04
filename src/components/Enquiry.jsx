@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import HeadInfo from './HeadInfo';
 import Nav from './Nav';
@@ -11,7 +11,7 @@ import '../css/form.css';
 
 function Enquiry() {
 
-    const history = useHistory();
+    const navigate = useNavigate();
     
     const [formData, setFormData] = useState({
         firstName: '',
@@ -35,9 +35,8 @@ function Enquiry() {
         // Handle form submission logic here
         console.log(formData);
         // Redirect to thank-you page
-        // window.location.href = '../en/thank-you.html';
-        
-        history.push('/ThankYou');
+        // window.location.href = '../en/thank-you.html'; 
+        navigate('/ThankYou');
     };
 
     return (
