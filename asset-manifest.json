@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/studypage-group-react/static/css/main.a4755107.css",
-    "main.js": "/studypage-group-react/static/js/main.d5e9a9b5.js",
+    "main.css": "/studypage-group-react/static/css/main.f1349d80.css",
+    "main.js": "/studypage-group-react/static/js/main.179713b0.js",
     "static/media/background-video-1.mp4": "/studypage-group-react/static/media/background-video-1.1463198611a7bee9b870.mp4",
     "static/media/cover3.png": "/studypage-group-react/static/media/cover3.047bfc4bb73513e566a3.png",
     "static/media/cover2.png": "/studypage-group-react/static/media/cover2.40677111f167dc5c520b.png",
@@ -19,11 +19,11 @@
     "static/media/about.png": "/studypage-group-react/static/media/about.557cc328a2d912367040.png",
     "static/media/wa_gold_logo.jpg": "/studypage-group-react/static/media/wa_gold_logo.a4bad17c721f0ed3bd3a.jpg",
     "index.html": "/studypage-group-react/index.html",
-    "main.a4755107.css.map": "/studypage-group-react/static/css/main.a4755107.css.map",
-    "main.d5e9a9b5.js.map": "/studypage-group-react/static/js/main.d5e9a9b5.js.map"
+    "main.f1349d80.css.map": "/studypage-group-react/static/css/main.f1349d80.css.map",
+    "main.179713b0.js.map": "/studypage-group-react/static/js/main.179713b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4755107.css",
-    "static/js/main.d5e9a9b5.js"
+    "static/css/main.f1349d80.css",
+    "static/js/main.179713b0.js"
   ]
 }
