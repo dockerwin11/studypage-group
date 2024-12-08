@@ -2,8 +2,8 @@
 // import './App.css';
 
 // React project
-import Main from './Main.jsx';
 import { BrowserRouter } from "react-router-dom";
+import Main from './Main.jsx';
 
 function App() {
     return (

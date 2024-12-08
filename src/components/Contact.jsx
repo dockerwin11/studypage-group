@@ -6,9 +6,9 @@ import Nav from './Nav';
 import BackgroundVideo from './BackgroundVideo';
 import Footer from './Footer';
 
-import '../css/style.css';
-import '../css/about.css';
-import '../css/contact.css';
+// import '../css/style.css';
+// import '../css/about.css';
+// import '../css/contact.css';
 
 function Contact() {
     return (

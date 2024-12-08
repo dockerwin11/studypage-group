@@ -21,7 +21,7 @@ function HomePageSec() {
                                 <img className="service-heading-img-off" src={serviceOff} alt="service img off" />
                                 <img className="service-heading-img-on" src={serviceOn} alt="service img on" />
                             </a> */}
-                            <Link to="/Rent" className="service-heading" title="service">
+                            <Link to="/Service" className="service-heading" title="service">
                                 <img className="service-heading-img-off" src={serviceOff} alt="service img off" />
                                 <img className="service-heading-img-on" src={serviceOn} alt="service img on" />
                             </Link>
@@ -36,7 +36,7 @@ function HomePageSec() {
                                 <img className="boat-heading-img-off" src={boatOff} alt="boat img off" />
                                 <img className="boat-heading-img-on" src={boatOn} alt="boat img on" />
                             </a> */}
-                            <Link to="/Rent" className="boat-heading" title="boat">
+                            <Link to="/Boat" className="boat-heading" title="boat">
                                 <img className="boat-heading-img-off" src={boatOff} alt="boat img off" />
                                 <img className="boat-heading-img-on" src={boatOn} alt="boat img on" />
                             </Link>

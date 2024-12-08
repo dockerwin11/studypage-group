@@ -2,6 +2,10 @@ import React from 'react';
 // import { useNavigate } from 'react-router-dom';
 // import { Link } from "react-router-dom";
 
+import BackgroundVideo from './BackgroundVideo';
+import HomePageHeroSlider from './HomePageHeroSlider';
+
+
 import coverImg1 from '../images/homepage/cover1.png';
 import coverImg2 from '../images/homepage/cover2.png';
 import coverImg3 from '../images/homepage/cover3.png';
@@ -9,14 +13,10 @@ import coverImg4 from '../images/homepage/cover4.png';
 import coverImg5 from '../images/homepage/cover5.png';
 import coverImg6 from '../images/homepage/cover6.png';
 import coverImg7 from '../images/homepage/cover7.png';
-
 // import { cover1, cover2, cover3, cover4, cover5, cover6, cover7 } from '../script/pageIndex';
 
-import BackgroundVideo from './BackgroundVideo';
-import HomePageHeroSlider from './HomePageHeroSlider';
-
-import '../css/style.css';
-import '../css/slider.css';
+// import '../css/style.css';
+// import '../css/slider.css';
 
 function HomePageHero() {
 

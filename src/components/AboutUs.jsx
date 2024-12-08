@@ -8,8 +8,8 @@ import Footer from './Footer';
 
 import aboutImg from '../images/about/about.png';
 
-import '../css/style.css';
-import '../css/about.css';
+// import '../css/style.css';
+// import '../css/about.css';
 
 function AboutUs() {
   return (

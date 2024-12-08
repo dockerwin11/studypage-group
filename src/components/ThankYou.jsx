@@ -6,8 +6,8 @@ import Nav from './Nav';
 import BackgroundVideo from './BackgroundVideo';
 import Footer from './Footer';
 
-import '../css/style.css';
-import '../css/thank.css';
+// import '../css/style.css';
+// import '../css/thank.css';
 
 function ThankYou() {
     return (

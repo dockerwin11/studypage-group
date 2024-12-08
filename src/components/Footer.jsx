@@ -71,7 +71,8 @@ function Footer() {
                     </li>
                 </ul>
                 <p className="copyright">
-                    copyright &copy; ERB Yachting all right reserved<span id="date">{currentYear}</span>
+                    {/* copyright &copy; ERB Yachting all right reserved<span id="date">{currentYear}</span> */}
+                    copyright &copy; ERB Yachting all right reserved {currentYear}
                 </p>
             </footer>
         </>

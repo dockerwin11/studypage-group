@@ -1,3 +1,4 @@
+/* ===========invoice.css=============== */
 /* ===========global variable=========== */
 :root {
    
@@ -39,11 +40,11 @@
   --navbar-Height: 4rem;
 }
 
-html,
+/* html,
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color:var(--clr-gray-2);
-}
+} */
 
 .invoice {
     max-width: 1100px;
@@ -140,7 +141,7 @@ body {
   display: flex;
 }
 
-.cart-footer h2 {
+.cart-footer h3 {
   width: 320px;
   text-align: left;
 }
@@ -153,6 +154,7 @@ body {
 .invoice-footer {
   text-align: center;
 }
+
 .thanks {
   font-size: 18px;
   margin-bottom: 40px;

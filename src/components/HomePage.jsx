@@ -6,9 +6,8 @@ import HomePageHero from './HomePageHero';
 import HomePageSec from './HomePageSec';
 import Footer from './Footer';
 
-import '../css/style.css';
-import '../css/slider.css';
-
+// import '../css/style.css';
+// import '../css/slider.css';
 
 function Homepage() {
     return (
