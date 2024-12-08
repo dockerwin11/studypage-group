@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/studypage-group-react/static/css/main.f1349d80.css",
-    "main.js": "/studypage-group-react/static/js/main.179713b0.js",
+    "main.css": "/studypage-group-react/static/css/main.f8a452ea.css",
+    "main.js": "/studypage-group-react/static/js/main.b1ced82b.js",
     "static/media/background-video-1.mp4": "/studypage-group-react/static/media/background-video-1.1463198611a7bee9b870.mp4",
     "static/media/cover3.png": "/studypage-group-react/static/media/cover3.047bfc4bb73513e566a3.png",
     "static/media/cover2.png": "/studypage-group-react/static/media/cover2.40677111f167dc5c520b.png",
@@ -11,19 +11,26 @@
     "static/media/cover5.png": "/studypage-group-react/static/media/cover5.cdc0ead98ad59bd40f0d.png",
     "static/media/yacht_charter_services_dark.png": "/studypage-group-react/static/media/yacht_charter_services_dark.55da6a3de667f4d17683.png",
     "static/media/cover6.png": "/studypage-group-react/static/media/cover6.102fe208a89724b1ce80.png",
+    "static/media/catering_onboard.jpg": "/studypage-group-react/static/media/catering_onboard.0aec3d8e645d89470781.jpg",
     "static/media/yacht_charter_boat.png": "/studypage-group-react/static/media/yacht_charter_boat.a11ad62679a3c6bd6cb2.png",
     "static/media/yacht_charter_boat_dark.png": "/studypage-group-react/static/media/yacht_charter_boat_dark.7e4c7cb34c69aa818edb.png",
+    "static/media/dj_onboard.jpg": "/studypage-group-react/static/media/dj_onboard.017945cf452a1577f520.jpg",
     "static/media/cover7.png": "/studypage-group-react/static/media/cover7.64e0de7ad0b81f5c8149.png",
+    "static/media/asian_style.jpg": "/studypage-group-react/static/media/asian_style.176e474ecd668b3cc238.jpg",
+    "static/media/mediterranean_style.png": "/studypage-group-react/static/media/mediterranean_style.965b74bed39696dd6c4e.png",
+    "static/media/water_toy.jpg": "/studypage-group-react/static/media/water_toy.0ac9f54330cbfeb70642.jpg",
     "static/media/erb_logo.png": "/studypage-group-react/static/media/erb_logo.f5b9aa9bd000972773f6.png",
+    "static/media/continental_style.jpg": "/studypage-group-react/static/media/continental_style.5d7d529d2fabfe4c98e5.jpg",
     "static/media/logo_brandhk_en.png": "/studypage-group-react/static/media/logo_brandhk_en.f0f06504ea1769fda521.png",
     "static/media/about.png": "/studypage-group-react/static/media/about.557cc328a2d912367040.png",
     "static/media/wa_gold_logo.jpg": "/studypage-group-react/static/media/wa_gold_logo.a4bad17c721f0ed3bd3a.jpg",
+    "static/media/favicon.ico": "/studypage-group-react/static/media/favicon.e02796614f0b501feff1.ico",
     "index.html": "/studypage-group-react/index.html",
-    "main.f1349d80.css.map": "/studypage-group-react/static/css/main.f1349d80.css.map",
-    "main.179713b0.js.map": "/studypage-group-react/static/js/main.179713b0.js.map"
+    "main.f8a452ea.css.map": "/studypage-group-react/static/css/main.f8a452ea.css.map",
+    "main.b1ced82b.js.map": "/studypage-group-react/static/js/main.b1ced82b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1349d80.css",
-    "static/js/main.179713b0.js"
+    "static/css/main.f8a452ea.css",
+    "static/js/main.b1ced82b.js"
   ]
 }
