@@ -127,7 +127,7 @@
 
 canvas {
     border:1px solid #d3d3d3;
-    background-image: url(../images/sea.png);
+    background-image: url(/src/images/game/sea.png);
     /* max-width: 300px;max-height: 300px; */
 }
 

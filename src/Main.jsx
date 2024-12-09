@@ -17,7 +17,8 @@ import BoatBali58 from './components/BoatBali58.jsx'
 import Invoice from './components/Invoice.jsx'
 import Enquiry from './components/Enquiry.jsx'
 import Contact from './components/Contact.jsx'
-import Game from './components/Game.jsx'    // develop
+import Game from './components/Game.jsx'
+// import Game from './components/GameDesktop.jsx'  // develop
 import SiteMap from './components/SiteMap.jsx'
 import ThankYou from './components/ThankYou.jsx'
 
@@ -50,6 +51,7 @@ function Main() {
             <Route path="/Enquiry" element={<Enquiry />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Game" element={<Game />} />
+            {/* <Route path="/GameDesktop" element={<GameDesktop />} /> */}
             <Route path="/SiteMap" element={<SiteMap />} />
             <Route path="/ThankYou" element={<ThankYou />} />
             <Route path="*" element={<HomePage />} />

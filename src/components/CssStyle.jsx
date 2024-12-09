@@ -13,6 +13,9 @@ import '../css/boat.css';
 import '../css/boatSlider.css';
 import '../css/lightboxMin.css';
 
+import '../css/game.css';
+import '../css/gameDesktop.css';
+
 function CssStyle () {
     
     return null;

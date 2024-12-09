@@ -57,6 +57,11 @@ function Boat() {
         getTotal(cart);
     }
 
+    const handleLinkClick = (event) => {
+        event.preventDefault();
+        window.open(event.currentTarget.href, '_blank'); 
+    };
+
     return (
         <>
             <HeadInfo />
@@ -76,7 +81,8 @@ function Boat() {
                                     <img className="boat-img-off" src="../images/cover1.png" alt="38 Surf"/>
                                     <img className="boat-img-on"  src="../images/cover1-dark.png" alt="38 Surf"/></a> */}
 
-                                <Link to="/Boat38Surf" target="_blank" className="boat-img-a">
+                                {/* <Link to="/Boat38Surf" target="_blank" className="boat-img-a"> */}
+                                <Link to="/Boat38Surf" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg1} alt="38 Surf img off"/>
                                     <img className="boat-img-on"  src={boatOnImg1} alt="38 Surf img on"/> 
                                 </Link>
@@ -89,7 +95,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover2.png" alt="Regal LS4"/>
                                     <img className="boat-img-on"  src="../images/cover2-dark.png" alt="Regal LS4"/></a> */}
 
-                                <Link to="/BoatRegalLs4" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatRegalLs4" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatRegalLs4" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg2} alt="Regal LS4 img off"/>
                                     <img className="boat-img-on"  src={boatOnImg2} alt="Regal LS4 img on"/> 
                                 </Link>
@@ -102,7 +109,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover3.png" alt="Regal 42 Fly"/>
                                     <img className="boat-img-on"  src="../images/cover3-dark.png" alt="Regal 42 Fly"/></a> */}
 
-                                <Link to="/BoatRegal42Fly" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatRegal42Fly" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatRegal42Fly" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg3} alt="Regal 42 Fly img off"/>
                                     <img className="boat-img-on"  src={boatOnImg3} alt="Regal 42 Fly img on"/> 
                                 </Link>
@@ -115,7 +123,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover4.png" alt="Regal 38 Grande"/>
                                     <img className="boat-img-on"  src="../images/cover4-dark.png" alt="Regal 38 Grande"/></a> */}
 
-                                <Link to="/BoatRegal38Grande" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatRegal38Grande" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatRegal38Grande" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg4} alt="Regal 38 Grande img off"/>
                                     <img className="boat-img-on"  src={boatOnImg4} alt="Regal 38 Grande img on"/> 
                                 </Link>
@@ -128,7 +137,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover5.png" alt="Beneteau Oceanis 60"/>
                                     <img className="boat-img-on"  src="../images/cover5-dark.png" alt="Beneteau Oceanis 60"/></a> */}
 
-                                <Link to="/BoatBeneteauOceanis60" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatBeneteauOceanis60" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatBeneteauOceanis60" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg5} alt="Beneteau Oceanis 60 img off"/>
                                     <img className="boat-img-on"  src={boatOnImg5} alt="Beneteau Oceanis 60 img on"/> 
                                 </Link>
@@ -141,7 +151,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover6.png" alt="Oceanco Black Pearl"/>
                                     <img className="boat-img-on"  src="../images/cover6-dark.png" alt="Oceanco Black Pearl"/></a> */}
 
-                                <Link to="/BoatOceancoBlackPearl" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatOceancoBlackPearl" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatOceancoBlackPearl" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg6} alt="Oceanco Black Pearl img off"/>
                                     <img className="boat-img-on"  src={boatOnImg6} alt="Oceanco Black Pearl img on"/> 
                                 </Link>
@@ -154,7 +165,8 @@ function Boat() {
                                     <img className="boat-img-off"  src="../images/cover7.png" alt="Bali 5.8"/>
                                     <img className="boat-img-on"  src="../images/cover7-dark.png" alt="Bali 5.8"/></a> */}
 
-                                <Link to="/BoatBali58" target="_blank" className="boat-img-a">
+                                {/* <Link to="/BoatBali58" target="_blank" className="boat-img-a"> */}
+                                <Link to="/BoatBali58" onClick={handleLinkClick} className="boat-img-a">
                                     <img className="boat-img-off" src={boatOffImg7} alt="Bali 5.8 img off"/>
                                     <img className="boat-img-on"  src={boatOnImg7} alt="Bali 5.8 img on"/> 
                                 </Link>
