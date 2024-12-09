@@ -36,7 +36,7 @@ const BoatSlider = ({ images }) => {
 
     return (
         <>
-        <LightBox />
+            <LightBox />
             
             {images.map((image, index) => (
                 

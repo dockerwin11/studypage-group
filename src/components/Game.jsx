@@ -5,6 +5,7 @@ import HeadInfo from './HeadInfo';
 import Nav from './Nav';
 import BackgroundVideo from './BackgroundVideo';
 import Footer from './Footer';
+// import GameDesktop from './GameDesktop';
 
 function Game() {
 
