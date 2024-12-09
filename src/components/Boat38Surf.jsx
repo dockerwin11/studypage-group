@@ -17,11 +17,11 @@ import coverImg5 from '../images/boat/speedBoat/38Surf/5.jpg';
 function Boat38Surf() {
 
     const images = [
-        {"coverImgs": coverImg1, "id": 1}, 
-        {"coverImgs": coverImg2, "id": 2},
-        {"coverImgs": coverImg3, "id": 3},
-        {"coverImgs": coverImg4, "id": 4},
-        {"coverImgs": coverImg5, "id": 5}
+        {"coverImgs": coverImg1, "lightBox": '38-Surf1', "title": '38-Surf'}, 
+        {"coverImgs": coverImg2, "lightBox": '38-Surf2', "title": '38-Surf'},
+        {"coverImgs": coverImg3, "lightBox": '38-Surf3', "title": '38-Surf'},
+        {"coverImgs": coverImg4, "lightBox": '38-Surf4', "title": '38-Surf'},
+        {"coverImgs": coverImg5, "lightBox": '38-Surf5', "title": '38-Surf'}
     ];
 
     return (
@@ -70,7 +70,7 @@ function Boat38Surf() {
                         <div className="boat-information-container">
                             <h2 className="boat-information-h2">Information</h2>
                             <p className="boat-information-p">
-                            Length: 15m<br />
+                                Length: 15m<br />
                                 Guests: 10/person<br />
                                 Crew: 2/person<br />
                                 Cost: HK$5000.00 per day<br /><br />

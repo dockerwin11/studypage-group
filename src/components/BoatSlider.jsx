@@ -40,7 +40,7 @@ const BoatSlider = ({ images }) => {
             
             {images.map((image, index) => (
                 
-                <a key={index} className="slide-boat" href={image.coverImgs} data-lightbox={`38-Surf${image.id}`} data-title="38-Surf">
+                <a key={index} className="slide-boat" href={image.coverImgs} data-lightbox={image.lightBox} data-title={image.title}>
                 <img
                 src={image.coverImgs}
                 // onClick={image.coverLinks}

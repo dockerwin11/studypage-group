@@ -12,6 +12,7 @@
     max-height: 600px;
     display: none;
     margin: auto;
+    overflow: hidden;
 }
 
 .slider button {

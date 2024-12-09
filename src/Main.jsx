@@ -7,13 +7,13 @@ import AboutUs from './components/AboutUs.jsx'
 import Rent from './components/Rent.jsx'
 import Service from './components/Service.jsx'
 import Boat from './components/Boat.jsx'
-import Boat38Surf from './components/Boat38Surf.jsx'                        // develop
-import BoatRegalLs4 from './components/BoatRegalLs4.jsx'                    // develop
-import BoatRegal42Fly from './components/BoatRegal42Fly.jsx'                // develop
-import BoatRegal38Grande from './components/BoatRegal38Grande.jsx'          // develop
-import BoatBeneteauOceanis60 from './components/BoatBeneteauOceanis60.jsx'  // develop
-import BoatOceancoBlackPearl from './components/BoatOceancoBlackPearl.jsx'  // develop
-import BoatBali58 from './components/BoatBali58.jsx'                        // develop
+import Boat38Surf from './components/Boat38Surf.jsx'                       
+import BoatRegalLs4 from './components/BoatRegalLs4.jsx'                    
+import BoatRegal42Fly from './components/BoatRegal42Fly.jsx'                
+import BoatRegal38Grande from './components/BoatRegal38Grande.jsx'          
+import BoatBeneteauOceanis60 from './components/BoatBeneteauOceanis60.jsx'  
+import BoatOceancoBlackPearl from './components/BoatOceancoBlackPearl.jsx'  
+import BoatBali58 from './components/BoatBali58.jsx'                        
 import Invoice from './components/Invoice.jsx'
 import Enquiry from './components/Enquiry.jsx'
 import Contact from './components/Contact.jsx'
