@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const HomePageHeroSlider = ({ images }) => {
+import LightBox from './LightBox';
+
+const BoatSlider = ({ images }) => {
     const [slideIndex, setSlideIndex] = useState(0);
     // const [intervalID, setIntervalID] = useState(null);
     const intervalRef = useRef(null);
@@ -33,20 +35,28 @@ const HomePageHeroSlider = ({ images }) => {
     };
 
     return (
-        <div className="slider">
+        <>
+        <LightBox />
+            
             {images.map((image, index) => (
+                
+                <a key={index} className="slide-boat" href={image.coverImgs} data-lightbox={`38-Surf${image.id}`} data-title="38-Surf">
                 <img
-                key={index}
                 src={image.coverImgs}
-                onClick={image.coverLinks}
+                // onClick={image.coverLinks}
                 alt={`Slide ${index}`}
                 className={index === slideIndex ? 'slide displaySlide' : 'slide'}
                 />
+                </a>
+            
             ))}
+            
             <button className="prev" title="prev" type="button" onClick={prevSlide}>&#10094;</button>
             <button className="next" title="next" type="button" onClick={nextSlide}>&#10095;</button>
-        </div>
+        
+        </>
     );
 };
 
-export default HomePageHeroSlider;
+
+export default BoatSlider

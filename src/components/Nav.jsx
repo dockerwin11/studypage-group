@@ -97,7 +97,7 @@ function Nav() {
                     <li><Link to="/AboutUs" className="mobile-nav-link">about us</Link></li>
                     <li><Link to="/Rent" className="mobile-nav-link">rent yacht</Link></li>
                     <li><Link to="/Enquiry" className="mobile-nav-link">enquiry</Link></li>
-                    <li><Link to="/Contact.html" className="mobile-nav-link">contact us</Link></li>
+                    <li><Link to="/Contact" className="mobile-nav-link">contact us</Link></li>
                     <li><Link to="/Game" className="mobile-nav-link">game</Link></li>
                     <li><Link to="/SiteMap" className="mobile-nav-link">sitemap</Link></li>
                 </ul>

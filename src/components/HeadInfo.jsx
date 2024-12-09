@@ -8,12 +8,12 @@ function HeadInfo() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
             {/* <!-- Favicon --> */}
-            <link rel="android-chrome-icon" type="image/png" sizes="192x192" href="/studyPage-group-react/android-chrome-192x192.png" />
-            <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/studyPage-group-react/apple-touch-icon.png" />
-            <link rel="icon" type="image/png" sizes="32x32" href="/studyPage-group-react/favicon-32x32.png" />
-            <link rel="icon" type="image/png" sizes="16x16" href="/studyPage-group-react/favicon-16x16.png" />
-            <link rel="icon" href="/studyPage-group-react/favicon-group.ico"></link>
-            <link rel="manifest" href="/studyPage-group-react/site.webmanifest" />
+            {/* <link rel="android-chrome-icon" type="image/png" sizes="192x192" href="/studypage-group-react/android-chrome-192x192.png" /> */}
+            {/* <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/studypage-group-react/apple-touch-icon.png" /> */}
+            <link rel="icon" type="image/png" sizes="32x32" href="/studypage-group-react/favicon-32x32.png" />
+            {/* <link rel="icon" type="image/png" sizes="16x16" href="/studypage-group-react/favicon-16x16.png" /> */}
+            {/* <link rel="icon" href="/studypage-group-react/favicon-group.ico"></link> */}
+            {/* <link rel="manifest" href="/studypage-group-react/site.webmanifest" /> */}
 
             {/* <!-- Site Description --> */}
             <meta name="description" content="ERB Yachting" />

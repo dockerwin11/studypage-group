@@ -46,11 +46,11 @@ function Footer() {
                     {/* <li><a href="./en/enquiry.html" className="footer-link">enquiry</a></li> */}
                     {/* <li><a href="./en/contact.html" className="footer-link">contact us</a></li> */}
 
-                    <li><nav><Link to="/" className="footer-link">home</Link></nav></li>
-                    <li><nav><Link to="/AboutUs" className="footer-link">about us</Link></nav></li>
-                    <li><nav><Link to="/Rent" className="footer-link">rent yacht</Link></nav></li>
-                    <li><nav><Link to="/Enquiry" className="footer-link">enquiry</Link></nav></li>
-                    <li><nav><Link to="/Contact" className="footer-link">contact us</Link></nav></li>
+                    <li><Link to="/" className="footer-link">home</Link></li>
+                    <li><Link to="/AboutUs" className="footer-link">about us</Link></li>
+                    <li><Link to="/Rent" className="footer-link">rent yacht</Link></li>
+                    <li><Link to="/Enquiry" className="footer-link">enquiry</Link></li>
+                    <li><Link to="/Contact" className="footer-link">contact us</Link></li>
                 </ul>
 
                 <ul className="footer-icons">

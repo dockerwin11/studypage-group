@@ -1,5 +1,5 @@
 import React from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 // import { Link } from "react-router-dom";
 
 import BackgroundVideo from './BackgroundVideo';
@@ -20,21 +20,22 @@ import coverImg7 from '../images/homepage/cover7.png';
 
 function HomePageHero() {
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const cover = (index) => { 
         const urls = [ 
-            '38-Surf.html',
-            'Regal-LS4.html',
-            'Regal-42-Fly.html',
-            'Regal-38-Grande.html',
-            'Beneteau-Oceanis-60.html',
-            'Oceanco-Black-Pearl.html',
-            'Bali-5.8.html'
+            '/Boat38Surf',
+            '/BoatRegalLs4',
+            '/BoatRegal42Fly',
+            '/BoatRegal38Grande',
+            '/BoatBeneteauOceanis60',
+            '/BoatOceancoBlackPearl',
+            '/BoatBali58'
         ];
+        
         console.log(urls[index]);
-        window.open(`/en/${urls[index]}`, '_blank');
-        // navigate(`/en/${urls[index]}`);
+        navigate(`${urls[index]}`);
+        // window.open(`/en/${urls[index]}`, '_blank');
         // window.open(urls[index], '_blank');
     };
 

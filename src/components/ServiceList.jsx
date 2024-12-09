@@ -60,8 +60,17 @@ function ServiceList ( { itemClass, type } ) {
 
     return (
         <>
-            {rentItems.map((rentItem) => ( 
+            {/* {rentItems.map((rentItem) => ( 
                 <div key={rentItem.id} className={`${typeClass}-${rentItem.id} ${typeClass}`}>
+                    <strong>${rentItem.price}</strong>
+                    <div className={`mid-${rentItem.id} unit`}>
+                        <button className={`unit-button unit-del-button-${rentItem.id}`} id={rentItem.id}>-</button>
+                        <p>{rentItem.quantity}</p>
+                        <button className={`unit-button unit-add-button-${rentItem.id}`} id={rentItem.id}>+</button>
+                    </div>
+                </div>  ))} */}
+            {rentItems.map((rentItem) => ( 
+                <div key={rentItem.id} className={`service-${rentItem.id} service`}>
                     <strong>${rentItem.price}</strong>
                     <div className={`mid-${rentItem.id} unit`}>
                         <button className={`unit-button unit-del-button-${rentItem.id}`} id={rentItem.id}>-</button>
