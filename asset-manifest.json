@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/studypage-group-react/static/css/main.889a3ecf.css",
-    "main.js": "/studypage-group-react/static/js/main.d84bd0dd.js",
+    "main.js": "/studypage-group-react/static/js/main.8ae680dc.js",
     "static/media/background-video-1.mp4": "/studypage-group-react/static/media/background-video-1.1463198611a7bee9b870.mp4",
     "static/media/cover3.png": "/studypage-group-react/static/media/cover3.047bfc4bb73513e566a3.png",
     "static/media/cover3-dark.png": "/studypage-group-react/static/media/cover3-dark.7301c9438e2acb2f8f1f.png",
@@ -51,10 +51,10 @@
     "static/media/favicon.ico": "/studypage-group-react/static/media/favicon.e02796614f0b501feff1.ico",
     "index.html": "/studypage-group-react/index.html",
     "main.889a3ecf.css.map": "/studypage-group-react/static/css/main.889a3ecf.css.map",
-    "main.d84bd0dd.js.map": "/studypage-group-react/static/js/main.d84bd0dd.js.map"
+    "main.8ae680dc.js.map": "/studypage-group-react/static/js/main.8ae680dc.js.map"
   },
   "entrypoints": [
     "static/css/main.889a3ecf.css",
-    "static/js/main.d84bd0dd.js"
+    "static/js/main.8ae680dc.js"
   ]
 }
